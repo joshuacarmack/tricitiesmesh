@@ -1,0 +1,24 @@
+{
+  "name": "iowameshsite",
+  "version": "1.0.0",
+  "description": "Static site for Iowa Mesh",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IowaMeshNet/IowaMeshSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IowaMeshNet/IowaMeshSite/issues"
+  },
+  "homepage": "https://github.com/IowaMeshNet/IowaMeshSite#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.9",
+    "@tailwindcss/typography": "^0.5.16",
+    "tailwindcss": "^4.0.9"
+  }
+}
