@@ -1,3 +1,5 @@
 baseURL: https://iowamesh.net
 languageCode: en-us
 title: Iowa Mesh
+
+theme: iowamesh
