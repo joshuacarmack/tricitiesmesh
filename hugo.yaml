@@ -1,8 +1,11 @@
-baseURL: https://iowamesh.net
+baseURL: https://iowameshnet.github.io/
 languageCode: en-us
 title: Iowa Mesh
 
 theme: iowamesh
+
+params:
+  logo: /images/icon.png
 
 build:
   buildStats:
