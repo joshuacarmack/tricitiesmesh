@@ -1,9 +1,5 @@
 {{ define "main" }}
-  <section class="prose">
+  <main class="prose max-w-none">
   {{ .Content }}
-  </section>
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+  </main>
 {{ end }}

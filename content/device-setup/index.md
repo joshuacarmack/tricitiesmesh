@@ -10,8 +10,8 @@ menus:
 Imagine a world where you can stay connected with your team, even when you're far off the grid.
 That's the magic of Meshtastic—an open-source, decentralized, off-grid mesh network powered by affordable, long-range LoRa radios.
 
-These compact communicators form a seamless network and can link to your phone via Bluetooth or Wi-Fi.
-Meshtastic ensures you're always connected. Learn more on the official website.
+> These compact communicators form a seamless network and can link to your phone via Bluetooth or Wi-Fi.
+> Meshtastic ensures you're always connected. Learn more on the official website.
 
 ## How Does It Work?
 
@@ -51,29 +51,29 @@ If you have access to a 3D printer, explore these amazing cases:
 In most cases where we are located in Iowa we'll need to use the 915 mhz bands of LoRa
 
 If you plan on participating in the meshmap you'll need to turn on Ok to MQTT.
-More information here
+More information [here](https://meshtastic.org/docs/configuration/radio/lora/#ignore-mqtt).
 
-LoRawan Configuration
+![LoRawan Configuration](lora-wan-config.jpg)
 
 5. Set your hop count.
 
 Current in Iowa it's a bit sparse for coverage.
 It might be worth turning up for the recommended 3 hops
 
-Information on Meshtastic's docs
+Information on [Meshtastic's docs](https://meshtastic.org/docs/configuration/radio/lora/#max-hops).
 
 6. Add Channels for Private configuration
 
 Use These QR Codes to Add the additional IROMesh Channel to your node.
 The Public Channel is available to everyone, but the IROMesh Channel will give us a little better place to communicate among the group.
 
-IRO Channel
+![IRO Channel](iro-add.jpg)
 
 7. Name Your Device
 
 Be Found Easily by naming your device! If you are already a licensed Amateur Radio Operator you can opt to put in your call sign
 
-Device Name
+![Device Name](device-name.jpg)
 
 ## Tips and Tricks
 
@@ -95,12 +95,12 @@ Meshtastic supports various operating modes to suit different needs:
 | ROUTER | Infrastructure node for extending network coverage by always rebroadcasting packets once. Visible in Nodes list. | Best positioned in strategic locations to maximize the network's overall coverage. Device is shown in topology. |
 | ROUTER_LATE | Infrastructure node that always rebroadcasts packets once but only after all other nodes, ensuring additional coverage for local clusters. Visible in Nodes list. | Ideal for covering dead spots or ensuring reliability for a cluster of nodes where placement doesn't benefit the broader mesh. Device is shown in topology. |
 
-For more details, explore the Meshtastic Blog.
+For more details, explore the [Meshtastic Blog](https://meshtastic.org/blog/choosing-the-right-device-role/).
 
-Here is another great video by TheCommsChannel explaining Different Roles.
+Here is another great video by TheCommsChannel explaining [Different Roles](https://youtu.be/htjwtnjQkkE?si=T3gjdGik5H1nYJo4).
 
 In the best case or you are in doubt choose client. If you have a mobile unit or traveling by plane client_mute is super helpful
 
 ## Join the Community
 
-Have questions or want to connect? Find us on Discord and join the conversation with Iowa Radio Operators!
+Have questions or want to connect? Find us on [Discord](https://discord.gg/jHBywwPJD8) and join the conversation with Iowa Radio Operators!
