@@ -1,9 +1,6 @@
 ---
 title: Iowa Mesh
 linkTitle: Home
-menus:
-  main:
-    weight: 1
 ---
 
 ## Welcome to Iowa Mesh

@@ -12,7 +12,7 @@ Renders a menu for the given menu ID.
 
 {{- with index site.Menus $menuID }}
   <nav class="my-auto flex space-x-4">
-      {{ range . }}
+      {{ range .ByWeight }}
         <a href="{{ .URL }}">
           {{ or (T .Identifier) .Name | safeHTML }}
         </a>

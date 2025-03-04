@@ -2,7 +2,7 @@
 title: Device Setup
 menus:
   main:
-    weight: 5
+    weight: 20
 ---
 
 ## What is Meshtastic?
