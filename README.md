@@ -26,3 +26,4 @@ Consult the [docs](https://gohugo.io/getting-started/directory-structure/) for h
 
 This site uses Tailwind for styling.
 Consult the [docs](https://tailwindcss.com/docs/styling-with-utility-classes) for an overview of how to apply new styles.
+Typographic styling baseline is applied by [tailwind-typography](https://github.com/tailwindlabs/tailwindcss-typography) `prose` class.
