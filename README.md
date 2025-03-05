@@ -14,3 +14,15 @@
 3. Run Hugo server: `hugo server -F -D`
 
 4. Make your changes
+
+## Overview
+
+### Content
+
+The site's content is rendered by Hugo.
+Consult the [docs](https://gohugo.io/getting-started/directory-structure/) for help in creating new content.
+
+### Styling
+
+This site uses Tailwind for styling.
+Consult the [docs](https://tailwindcss.com/docs/styling-with-utility-classes) for an overview of how to apply new styles.
