@@ -8,6 +8,7 @@ location:
   latitude: 42.0610048
   longitude: -93.913088
   agl: 60
+  altitude: 1000
 ---
 
 Blah

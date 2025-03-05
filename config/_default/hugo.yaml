@@ -6,6 +6,7 @@ theme: iowamesh
 
 params:
   logo: /images/icon.png
+  mapboxToken: pk.eyJ1IjoiZXRoYW5oYXJzdGFkIiwiYSI6ImNtN3Y4YjZkazA4b2cya3B3cGVqdWpnOGIifQ.Lu7fPiHPjQ_bxr4TR33Bjg
 
 build:
   buildStats:
