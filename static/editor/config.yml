@@ -1,0 +1,48 @@
+media_folder: "static/uploads"
+
+backend:
+  name: github
+  repo: iowameshnet/iowameshnet.github.io
+  branch: main
+
+collections:
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: content/posts
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: nodes
+    label: Nodes
+    label_singular: Node
+    folder: content/nodes
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - label: "LoRa"
+        name: "lora"
+        widget: "object"
+        fields:
+          - { label: "Short Name", name: "shortName", widget: "string" }
+          - { label: "Long Name", name: "longName", widget: "string" }
+          - { label: "Device Mode", name: "mode", widget: "string" }
+          - { label: "Node Number", name: "nodeNumber", widget: "number" }
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Latitude", name: "latitude", widget: "number" }
+          - { label: "Longitude", name: "longitude", widget: "number" }
+          - { label: "Above Ground Level (m)", name: "agl", widget: "number" }
+          - { label: "Altitude (m)", name: "altitude", widget: "number" }
+      - { label: "Body", name: "body", widget: "markdown" }
