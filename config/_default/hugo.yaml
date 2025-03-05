@@ -9,6 +9,12 @@ params:
   mapboxToken: pk.eyJ1IjoiZXRoYW5oYXJzdGFkIiwiYSI6ImNtN3Y4YjZkazA4b2cya3B3cGVqdWpnOGIifQ.Lu7fPiHPjQ_bxr4TR33Bjg
   meshmapUrl: https://meshmap.iowamesh.net/
 
+menus:
+  main:
+    - name: MeshMap
+      weight: 10
+      url: https://meshmap.iowamesh.net/?zoom=8&lat=41.795770762948315&lng=266.7178868078869
+
 build:
   buildStats:
     enable: true

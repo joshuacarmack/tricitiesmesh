@@ -2,7 +2,7 @@
 title: Recommended Hardware
 menu:
   main:
-    weight: 50
+    weight: 40
 ---
 
 blah blah blah
