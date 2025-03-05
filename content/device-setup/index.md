@@ -53,7 +53,7 @@ In most cases where we are located in Iowa we'll need to use the 915 mhz bands o
 If you plan on participating in the meshmap you'll need to turn on Ok to MQTT.
 More information [here](https://meshtastic.org/docs/configuration/radio/lora/#ignore-mqtt).
 
-![LoRawan Configuration](lora-wan-config.jpg)
+{{< img src="lora-wan-config.jpg" alt="Meshtastic logo" width="500px" height="800px" >}}
 
 5. Set your hop count.
 
@@ -67,13 +67,13 @@ Information on [Meshtastic's docs](https://meshtastic.org/docs/configuration/rad
 Use These QR Codes to Add the additional IROMesh Channel to your node.
 The Public Channel is available to everyone, but the IROMesh Channel will give us a little better place to communicate among the group.
 
-![IRO Channel](iro-add.jpg)
+{{< img src="iro-add.jpg" alt="Meshtastic logo" width="300px" height="300px" >}}
 
 7. Name Your Device
 
 Be Found Easily by naming your device! If you are already a licensed Amateur Radio Operator you can opt to put in your call sign
 
-![Device Name](device-name.jpg)
+{{< img src="device-name.jpg" alt="Meshtastic logo" width="500px" height="500px" >}}
 
 ## Tips and Tricks
 

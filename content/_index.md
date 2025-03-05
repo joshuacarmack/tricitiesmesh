@@ -10,7 +10,8 @@ This network acts like a statewide text messaging system, allowing people to com
 
 ## What is Meshtastic
 
-![Meshtastic logo](/images/Meshtastic_Logo_w_Typeface.jpg)
+{{< img src="/images/Meshtastic_Logo_w_Typeface.jpg" alt="Meshtastic logo" width="400px" height="400px" >}}
+
 
 Meshtastic is an open-source, decentralized, off-grid mesh network. It's made up of small communicators that can form a mesh network.
 These communicators can be linked to a phone via Bluetooth or Wi-Fi.
@@ -26,7 +27,7 @@ The radios mesh using the open-source Meshtastic software.
 Users can connect to these repeaters by Bluetooth if they’re close enough, or they can use their own handheld nodes, which will also act as repeaters.
 The messages hop from node to node, extending the reach of the network and ensuring everyone receives every message.
 
-![Mesh Network Diagram](/images/mesh-how-it-works.png)
+{{< img src="/images/mesh-how-it-works.png" alt="Meshtastic logo" width="500px" height="500px" >}}
 
 Get connected.
 Stay informed.
