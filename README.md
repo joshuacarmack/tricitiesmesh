@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- [Hugo](https://gohugo.io/installation/)
+- [Hugo](https://gohugo.io/installation/): be sure to install the `extended` version
 - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ## Getting Started
@@ -24,6 +24,6 @@ Consult the [docs](https://gohugo.io/getting-started/directory-structure/) for h
 
 ### Styling
 
-This site uses Tailwind for styling.
-Consult the [docs](https://tailwindcss.com/docs/styling-with-utility-classes) for an overview of how to apply new styles.
-Typographic styling baseline is applied by [tailwind-typography](https://github.com/tailwindlabs/tailwindcss-typography) `prose` class.
+This site uses the Docsy theme.
+Docsy makes numerous shortcodes available to enhance your content.
+Read the [docs](https://www.docsy.dev/docs/) for more information.
