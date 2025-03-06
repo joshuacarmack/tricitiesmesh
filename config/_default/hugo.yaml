@@ -19,7 +19,7 @@ defaultContentLanguage: en
 enableRobotsTXT: true
 
 # Will give values to .Lastmod etc.
-enableGitInfo: true
+enableGitInfo: false
 
 # Comment out to enable taxonomies in Docsy
 # disableKinds: [taxonomy, taxonomyTerm]
@@ -101,7 +101,7 @@ params:
   prism_syntax_highlighting: false
 
   copyright:
-    authors: Iowa Mesh Net | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+    authors: Iowa Mesh Net
     from_year: 2025
 
   # User interface configuration
