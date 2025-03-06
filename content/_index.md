@@ -14,28 +14,6 @@ Meshtastic uses inexpensive LoRa radios as a long-range communication platform.
 Learn more at the official Meshtastic website.
 {{% /blocks/lead %}}
 
-
-{{% blocks/section color="dark" type="row" %}}
-{{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
-The Goldydocs UI now shows chair size metrics by default.
-
-Please follow this space for updates!
-{{% /blocks/feature %}}
-
-
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
-We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributions workflow on **GitHub**. New users are always welcome!
-{{% /blocks/feature %}}
-
-
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
-For announcement of latest features etc.
-{{% /blocks/feature %}}
-
-
-{{% /blocks/section %}}
-
-
 {{% blocks/section %}}
 We're working to set up a mesh network of solar-powered radio repeaters in Iowa.
 Users also contribute to the network using their personal Meshtastic devices.
@@ -53,7 +31,7 @@ Setup your own node
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-solid fa-rss" title="Stay informed."
-    url="/posts" %}}
+    url="/blog" %}}
 Follow our blog
 {{% /blocks/feature %}}
 
