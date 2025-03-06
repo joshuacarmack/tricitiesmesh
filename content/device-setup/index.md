@@ -3,7 +3,7 @@ title: Device Setup
 type: docs
 menus:
   main:
-    weight: 20
+    weight: 30
 ---
 
 ## What is Meshtastic?
