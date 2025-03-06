@@ -32,12 +32,12 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.145.0
-      NODE_VERSION: 22.x
+      NODE_VERSION: "22.x"
     steps:
-      - name: Use Node.js ${NODE_VERSION}
+      - name: Use Node.js $NODE_VERSION
         uses: actions/setup-node@v4
         with:
-          node-version: ${NODE_VERSION}
+          node-version: $NODE_VERSION
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
