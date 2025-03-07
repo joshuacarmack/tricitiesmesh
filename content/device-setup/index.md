@@ -4,6 +4,7 @@ type: docs
 menus:
   main:
     weight: 30
+
 ---
 
 ## What is Meshtastic?
