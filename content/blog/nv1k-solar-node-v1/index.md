@@ -1,5 +1,5 @@
 ---
-date: 2025-03-10
+date: 2025-05-10
 title: NV1K Solar Node v1
 description: >
   The Docsy Hugo theme lets project maintainers and contributors focus on content,
@@ -10,6 +10,7 @@ resources:
     title: "Image #:counter"
     params:
       byline: "Photo: Ethan Harstad / CC-BY-CA"
+draft: true
 ---
 
 **This is a typical blog post that includes images.**
