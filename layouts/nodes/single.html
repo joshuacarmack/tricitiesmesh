@@ -18,18 +18,39 @@
                 {{ with .Params.location }}
                 <img class="card-img-top"
                     src="https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/pin-s+000({{ .longitude }},{{ .latitude }})/{{ .longitude }},{{ .latitude }},10/500x500?access_token={{ site.Params.mapboxToken}}" />
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Location: {{ .name }} ({{ .latitude }}, {{ .longitude }})</li>
-                    <li class="list-group-item">Altitude: {{ with .altitude }}{{ . }}{{ end }} meters / {{ with .agl }}{{ . }} above ground{{ end }}</li>
-                </ul>
                 {{ end }}
-                <div class="card-body">
-                    {{ with site.Params.meshmapUrl }}
-                    {{ with $.Params.lora.nodeNumber }}
-                    <a class="card-link" href="{{ site.Params.meshmapUrl }}/?node_id={{ . }}">View on MeshMap</a>
+                <ul class="list-group list-group-flush">
+                    {{ with .Params.location }}
+                    <li class="list-group-item">Location: {{ .name }} ({{ .latitude }}, {{ .longitude }})</li>
+                    <li class="list-group-item">Altitude: {{ with .altitude }}{{ . }}{{ end }} meters / {{ with .agl
+                        }}{{ . }} above ground{{ end }}</li>
+                    {{ end }}
+                    <li class="list-group-item">
+                        {{ with site.Params.meshmapUrl }}
+                        {{ with $.Params.lora.nodeNumber }}
+                        <a class="card-link" href="{{ site.Params.meshmapUrl }}/?node_id={{ . }}">View on MeshMap</a>
+                        {{ end }}
+                        {{ end }}
+                    </li>
+                    {{ with .Params.contact }}
+                    <li class="list-group-item"><b>Contact Info</b></li>
+                    {{ with .name }}
+                    <li class="list-group-item">{{ . }}</li>
+                    {{ end }}
+                    {{ with .email }}
+                    <li class="list-group-item"><i class="fa-solid fa-envelope"></i> {{ . }}</li>
+                    {{ end }}
+                    {{ with .amateurCallsign }}
+                    <li class="list-group-item"><i class="fa-solid fa-walkie-talkie"></i> {{ . }} on Amateur Radio</li>
+                    {{ end }}
+                    {{ with .meshtasticName }}
+                    <li class="list-group-item"><i class="fa-solid fa-circle-nodes"></i> {{ . }} on Meshtastic</li>
+                    {{ end }}
+                    {{ with .discord }}
+                    <li class="list-group-item"><i class="fa-brands fa-discord"></i> {{ . }}</li>
                     {{ end }}
                     {{ end }}
-                </div>
+                </ul>
             </div>
         </div>
     </div>
