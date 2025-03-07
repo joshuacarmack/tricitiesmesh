@@ -69,6 +69,8 @@ outputs:
   section: [HTML, print, RSS]
 
 params:
+  mapboxToken: pk.eyJ1IjoiZXRoYW5oYXJzdGFkIiwiYSI6ImNtN3Y4YjZkazA4b2cya3B3cGVqdWpnOGIifQ.Lu7fPiHPjQ_bxr4TR33Bjg
+  meshmapUrl: https://meshmap.iowamesh.net/
   taxonomy:
     # set taxonomyCloud = [] to hide taxonomy clouds
     taxonomyCloud: [tags, categories]

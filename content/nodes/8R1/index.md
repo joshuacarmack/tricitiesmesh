@@ -1,5 +1,6 @@
 ---
 title: Boone County - East Repeater
+description: Meshtastic node serving eastern Boone County.
 lora:
   shortName: 8R1
   longName: Boone Co Rpt 1
