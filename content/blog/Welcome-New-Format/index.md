@@ -1,5 +1,5 @@
 ---
-date: 2025-03-11
+date: 2025-03-10
 title: Welcome To IowaMesh and the New Format
 author: Calvin Jutting ([@KN0CTJ](calvin@iowamesh.net))
 ---
