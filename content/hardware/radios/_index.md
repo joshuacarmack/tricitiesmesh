@@ -9,8 +9,8 @@ Simple Options like the RAK Wireless WisMesh v2 will give you a turn key option 
 
 [Rak WisMesh V2](https://store.rakwireless.com/products/wismesh-pocket?srsltid=AfmBOorX5ZwHR3ey9Qbw0KnLPgNsgy273S4vOVJTYXIgv_lm2a5heKno)
 
-Another good option for a build in node would be the LillyGo T-Echo. Also put together brings a low entry barrier to use and get started
+Another good option for a built-in node would be the LilyGo T-Echo. Also put together, it brings a low entry barrier to use and get started with Meshtastic.
 
-[LillyGo TBeam](https://lilygo.cc/products/t-echo-lilygo?srsltid=AfmBOopDO9eTH-pj0N4oiL6wTNOFTvJOXZdCF7RAi38TiONZDy89sFhN)
+[LilyGo T-Echo](https://lilygo.cc/products/t-echo-lilygo?srsltid=AfmBOopDO9eTH-pj0N4oiL6wTNOFTvJOXZdCF7RAi38TiONZDy89sFhN)
 
 
