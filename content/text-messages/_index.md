@@ -1,14 +1,17 @@
 ---
 title: Text Messages
-type: docs
 menu:
   main:
     weight: 30
     name: Mesh Text Messages
 summary: ''
+type: single
 ---
 
-This page shows all messages received by KN0CTJ's base station. It shows
-messages that have been received through MQTT or RF.
+{{% blocks/lead color="primary" %}}
+Text Messages Heard over the mesh (Keep in mind these are coming from MQTT, so Your mileage may vary)
+{{% /blocks/lead %}}
 
+{{< blocks/section color="white" >}}
 {{<iframe src="https://meshmap.iowamesh.net/text-messages-embed.html" >}}
+{{< /blocks/section >}}
