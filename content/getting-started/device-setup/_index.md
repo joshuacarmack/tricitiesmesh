@@ -1,10 +1,8 @@
 ---
 title: Device Setup
 type: docs
-menus:
-  main:
-    weight: 40
-
+cascade:
+  - type: "docs"
 ---
 
 ## What is Meshtastic?

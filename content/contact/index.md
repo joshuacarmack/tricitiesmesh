@@ -2,7 +2,7 @@
 title: Contact Us
 menu:
   main:
-    weight: 80
+    weight: 70
 type: single
 ---
 

@@ -1,8 +1,5 @@
 ---
 title: Recommended Hardware
-menu:
-  main:
-    weight: 50
 type: docs
 cascade:
   - type: "docs"
