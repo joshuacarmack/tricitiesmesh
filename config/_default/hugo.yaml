@@ -7,8 +7,12 @@ themesDir: node_modules
 menus:
   main:
     - name: MeshMap
-      weight: 10
+      weight: 20
       url: https://meshmap.iowamesh.net/?zoom=8&lat=41.795770762948315&lng=266.7178868078869
+      target: ""
+    - name: Mesh Text Messages
+      weight: 30
+      url: https://meshmap.iowamesh.net/text-messages-embed.html
       target: ""
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu

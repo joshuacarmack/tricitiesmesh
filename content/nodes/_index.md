@@ -2,5 +2,5 @@
 title: Infrastructure
 menus:
   main:
-    weight: 50
+    weight: 60
 ---

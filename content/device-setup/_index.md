@@ -3,7 +3,7 @@ title: Device Setup
 type: docs
 menus:
   main:
-    weight: 30
+    weight: 40
 
 ---
 
