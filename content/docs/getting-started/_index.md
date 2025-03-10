@@ -3,23 +3,6 @@ title: Getting Started
 weight: 10
 ---
 
-## What is Meshtastic?
-
-Imagine a world where you can stay connected with your team, even when you're far off the grid.
-That's the magic of Meshtastic—an open-source, decentralized, off-grid mesh network powered by affordable, long-range LoRa radios.
-
-> These compact communicators form a seamless network and can link to your phone via Bluetooth or Wi-Fi.
-> Meshtastic ensures you're always connected. Learn more on the official website.
-
-## How Does It Work?
-
-Meshtastic operates in the 915 MHz frequency range, leveraging the powerful LoRa protocol to create an interconnected web of communication.
-Here's the magic behind it:
-
-- Radios running Meshtastic software form a resilient, self-healing mesh network.
-- Connect to these devices via Bluetooth for nearby use or through handheld nodes that double as repeaters.
-- Messages effortlessly hop from node to node, extending your reach and building a robust communication chain.
-
 ## Getting Started with Meshtastic
 
 Ready to join the Meshtastic revolution?
