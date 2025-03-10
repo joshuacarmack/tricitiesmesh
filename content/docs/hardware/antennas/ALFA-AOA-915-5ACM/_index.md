@@ -5,8 +5,10 @@ date: 2025-03-05
 
 [Amazon](https://a.co/d/7hUrzN9)
 
+![Alfa Network 5dbi Antenna](alfa-aoa-915.jpg)
+
 $16.97
 
-Compact, 7 inch height.
+Compact, 7 inch height. Great for mobile or base station builds
 
 5 dbi omni antenna with Male N connector to attach directly to a bulkhead connector.

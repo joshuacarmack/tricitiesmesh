@@ -9,4 +9,4 @@ date: 2025-03-05
 
 $31.95
 
-Another Great use case for a base station or higher up location. Can also be used for a client or potentially a router
+Another Great use case for a base station or higher up location. Can also be used for a client or potentially a router. Good build quality and ready for deployment

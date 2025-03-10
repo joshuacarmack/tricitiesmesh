@@ -9,6 +9,6 @@ date: 2025-03-06
 
 $21.99
 
-It's great.
+Series ½-wave center-fed dipole antennas are designed for outdoor and indoor use. They deliver outstanding performance in a rugged and cosmetically attractive package. The antenna contains a helical element and internal counterpoise which eliminates external ground plane dependence and maximizes performance.
 
-Does not require a ground plane.
+It's great low cost option for starting out. Does not require a ground plane.
