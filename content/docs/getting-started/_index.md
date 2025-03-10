@@ -3,84 +3,79 @@ title: Getting Started
 weight: 10
 ---
 
-## Getting Started with Meshtastic
+{{< blocks/section type="row" color="white" >}}
+{{% blocks/feature icon="fa-walkie-talkie" title="Step 1" %}}
+Get your hands on a device
 
-Ready to join the Meshtastic revolution?
-Here's how:
+[Read More](#choose-your-device)
+{{% /blocks/feature %}}
+{{% blocks/feature icon="fa-bolt" title="Step 2" %}}
+Flash your device
 
-1. Choose Your Device
+[Read More](#flash-the-firmware)
+{{% /blocks/feature %}}
+{{% blocks/feature icon="fa-gears" title="Step 3" %}}
+Configure your device
 
-- Heltec Boards: Budget-friendly and beginner-friendly.
-- LilyGo & Wisblock Rak Boards: Advanced boards offering maximum flexibility for customization.
+[Read More](#configure-your-device)
+{{% /blocks/feature %}}
+{{< /blocks/section >}}
 
-2. Flash the Firmware
+## Choose Your Device
+
+In order to use Meshtastic or join in the Iowa Mesh, you will need a device capable of running the Meshtastic firmware.
+You should make sure your device includes at least an antenna, a battery if you want to operate portable, and a GPS if you want to share your position.
+Some of our favorite starter devices are:
+
+- Ready to go devices:
+- Low cost devices: Heltec v3 from [Amazon] or [Rokland](https://store.rokland.com/pages/meshtastic-hardware-rak-lilygo)
+- Development kits:
+
+If you would like to explore other options check out our [hardware recommendations](/docs/hardware/radios). Some things to be aware of:
+
+- Some devices are available for multiple frequency bands. The United States requires the 915 MHz band.
+- nRF52 based devices are more power efficient than ESP32 based devices so they are better for portable use.
+- Most devices do not have a built in GPS. If you are connected to the device with your phone, it can still use your phone's GPS if you want to track position.
+
+## Flash the Firmware
 
 After selecting your device, use the [Meshtastic web flasher](https://flasher.meshtastic.org/) to install the software.
 It's quick, straightforward, and backed by excellent documentation.
 
-3. Customize with 3D Cases
+## Configure Your Device
 
-If you have access to a 3D printer, explore these amazing cases:
+1. Connect to your device
 
-- Heltec V3 Mini Case
-- RAK19007/RAK5005 Case
-- T-Beam V1.x Case
-- T-Beam Supreme Case
+1. Set your Lora Region to United States
 
-4. Set your Lora Region to United States
+1. Name Your Device
 
-In most cases where we are located in Iowa we'll need to use the 915 mhz bands of LoRa
+   Be Found Easily by naming your device! If you are already a licensed Amateur Radio Operator you can opt to put in your call sign
 
-If you plan on participating in the meshmap you'll need to turn on Ok to MQTT.
-More information [here](https://meshtastic.org/docs/configuration/radio/lora/#ignore-mqtt).
+   ![Device name config](device-name.jpg)
 
-![LoRa Config Screen](lora-wan-config.jpg)
+1. LoRa Settings
 
-5. Set your hop count.
+   Currently in Iowa it's a bit sparse for coverage.
+   It might be worth turning up for the recommended 3 hops
 
-Current in Iowa it's a bit sparse for coverage.
-It might be worth turning up for the recommended 3 hops
+   Information on [Meshtastic's docs](https://meshtastic.org/docs/configuration/radio/lora/#max-hops).
 
-Information on [Meshtastic's docs](https://meshtastic.org/docs/configuration/radio/lora/#max-hops).
+   If you plan on participating in the meshmap you'll need to turn on Ok to MQTT.
+   More information [here](https://meshtastic.org/docs/configuration/radio/lora/#ignore-mqtt).
 
-6. Add Channels for Private configuration
+   ![LoRa Config Screen](lora-wan-config.jpg)
 
-Use These QR Codes to Add the additional IROMesh Channel to your node.
-The Public Channel is available to everyone, but the IROMesh Channel will give us a little better place to communicate among the group.
+1. Add Channels for Private configuration
 
-![IRO Mesh channel config](iro-add.jpg)
+   Use These QR Codes to Add the additional IROMesh Channel to your node.
+   The Public Channel is available to everyone, but the IROMesh Channel will give us a little better place to communicate among the group.
 
-7. Name Your Device
+   ![IRO Mesh channel config](iro-add.jpg)
 
-Be Found Easily by naming your device! If you are already a licensed Amateur Radio Operator you can opt to put in your call sign
+## Have Fun
 
-![Device name config](device-name.jpg)
-
-## Tips and Tricks
-
-### Operating Modes
-
-Meshtastic supports various operating modes to suit different needs:
-
-| Device Role | Description | Best Uses |
-|-------------|-------------|-----------|
-| CLIENT | App connected or stand alone messaging device. Rebroadcasts packets when no other node has done so. | General use for individuals needing to communicate over the Meshtastic network with support for client applications. |
-| CLIENT_MUTE | Device that does not forward packets from other devices. | Situations where a device needs to participate in the network without assisting in packet routing, reducing network load. |
-| CLIENT_HIDDEN | Device that only broadcasts as needed for stealth or power savings. | Use in stealth/hidden deployments or to reduce airtime/power consumption while still participating in the network. |
-| TRACKER | Broadcasts GPS position packets as priority. | Tracking the location of individuals or assets, especially in scenarios where timely and efficient location updates are critical. |
-| LOST_AND_FOUND | Broadcasts location as message to default channel regularly for to assist with device recovery. | Used for recovery efforts of a lost device. |
-| SENSOR | Broadcasts telemetry packets as priority. | Deploying in scenarios where gathering environmental or other sensor data is crucial, with efficient power usage and frequent updates. |
-| TAK | Optimized for ATAK system communication, reduces routine broadcasts. | Integration with ATAK systems (via the Meshtastic ATAK Plugin) for communication in tactical or coordinated operations. |
-| TAK_TRACKER | Enables automatic TAK PLI broadcasts and reduces routine broadcasts. | Standalone PLI integration with ATAK systems for communication in tactical or coordinated operations. |
-| REPEATER | Infrastructure node for extending network coverage by always rebroadcasting packets once with minimal overhead. Not visible in Nodes list. | Best positioned in strategic locations to maximize the network's overall coverage. Device is not shown in topology. |
-| ROUTER | Infrastructure node for extending network coverage by always rebroadcasting packets once. Visible in Nodes list. | Best positioned in strategic locations to maximize the network's overall coverage. Device is shown in topology. |
-| ROUTER_LATE | Infrastructure node that always rebroadcasts packets once but only after all other nodes, ensuring additional coverage for local clusters. Visible in Nodes list. | Ideal for covering dead spots or ensuring reliability for a cluster of nodes where placement doesn't benefit the broader mesh. Device is shown in topology. |
-
-For more details, explore the [Meshtastic Blog](https://meshtastic.org/blog/choosing-the-right-device-role/).
-
-Here is another great video by TheCommsChannel explaining [Different Roles](https://youtu.be/htjwtnjQkkE?si=T3gjdGik5H1nYJo4).
-
-In the best case or you are in doubt choose client. If you have a mobile unit or traveling by plane client_mute is super helpful
+You're now ready to have fun with Meshtastic and the Iowa Mesh!
 
 ## Join the Community
 
