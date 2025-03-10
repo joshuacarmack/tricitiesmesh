@@ -24,7 +24,7 @@ The messages hop from node to node, extending the reach of the network and ensur
 
 {{% blocks/section type="row" %}}
 
-{{% blocks/feature icon="fa-solid fa-tower-cell" title="Get connected." url="/getting-started" %}}
+{{% blocks/feature icon="fa-solid fa-tower-cell" title="Get connected." url="/docs/getting-started" %}}
 Setup your own node
 {{% /blocks/feature %}}
 

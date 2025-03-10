@@ -1,8 +1,6 @@
 ---
-title: Device Setup
-type: docs
-cascade:
-  - type: "docs"
+title: Getting Started
+weight: 10
 ---
 
 ## What is Meshtastic?
