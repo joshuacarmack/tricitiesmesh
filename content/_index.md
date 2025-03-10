@@ -6,7 +6,6 @@ title: Iowa Mesh
 <p class="lead mt-5">IowaMesh.net is a group working to build a mesh network of Meshtastic radios in the State of Iowa. This network acts like a statewide text messaging system, allowing people to communicate publicly or privately with anyone on the network.</p>
 {{< /blocks/cover >}}
 
-
 {{% blocks/lead color="primary" %}}
 Meshtastic is an open-source, decentralized, off-grid mesh network. It's made up of small communicators that can form a mesh network.
 These communicators can be linked to a phone via Bluetooth or Wi-Fi.
@@ -23,10 +22,9 @@ Users can connect to these repeaters by Bluetooth if they’re close enough, or 
 The messages hop from node to node, extending the reach of the network and ensuring everyone receives every message.
 {{% /blocks/section %}}
 
-
 {{% blocks/section type="row" %}}
 
-{{% blocks/feature icon="fa-solid fa-tower-cell" title="Get connected." url="/device-setup" %}}
+{{% blocks/feature icon="fa-solid fa-tower-cell" title="Get connected." url="/getting-started" %}}
 Setup your own node
 {{% /blocks/feature %}}
 
@@ -36,7 +34,7 @@ Follow our blog
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-solid fa-circle-nodes" title="Build the mesh."
-    url="/infrastructure" %}}
+    url="/nodes" %}}
 Connect your nodes to extend our network.
 {{% /blocks/feature %}}
 

@@ -1,4 +1,4 @@
-baseURL: https://iowameshnet.github.io/
+baseURL: https://iowamesh.net/
 title: Iowa Mesh Net
 
 theme: docsy
@@ -127,9 +127,9 @@ params:
     feedback:
       enable: false
       # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-      'yes': >-
+      "yes": >-
         Glad to hear it! Please <a href="https://github.com/IowaMeshNet/iowameshnet.github.io/issues/new">tell us how we can improve</a>.
-      'no': >-
+      "no": >-
         Sorry to hear that. Please <a href="https://github.com/IowaMeshNet/iowameshnet.github.io/issues/new">tell us how we can improve</a>.
 
     # Adds a reading time to the top of each doc.
