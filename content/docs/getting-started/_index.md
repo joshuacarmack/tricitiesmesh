@@ -28,7 +28,7 @@ You should make sure your device includes at least an antenna, a battery if you 
 Some of our favorite starter devices are:
 
 - Ready to go devices:
-- Low cost devices: Heltec v3 from [Amazon] or [Rokland](https://store.rokland.com/pages/meshtastic-hardware-rak-lilygo)
+- Low cost devices: Heltec v3 from [Amazon](https://www.amazon.com/s?k=heltec+v3&crid=Z70PFM8OZVX6&sprefix=heltec+v3%2Caps%2C137&ref=nb_sb_noss_1) or [Rokland](https://store.rokland.com/pages/meshtastic-hardware-rak-lilygo)
 - Development kits:
 
 If you would like to explore other options check out our [hardware recommendations](/docs/hardware/radios). Some things to be aware of:
