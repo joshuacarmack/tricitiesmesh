@@ -46,13 +46,23 @@ It's quick, straightforward, and backed by excellent documentation.
 
 1. Connect to your device
 
+   Install and open the Meshtastic app on your phone.
+   From the main screen click on the connect button to pair with a new device.
+   You will need to follow the pairing instructions for your specific device.
+   Generally devices without a screen will have a fixed pin like "123456" and devices with a screen will present a pairing code on the screen.
+
+   {{< imgproc "pairing-android.png" Resize "300x" />}}
+
 1. Set your Lora Region to United States
+
+   {{< imgproc "region-android.png" Resize "300x" />}}
 
 1. Name Your Device
 
    Be Found Easily by naming your device! If you are already a licensed Amateur Radio Operator you can opt to put in your call sign
 
-   ![Device name config](device-name.jpg)
+   {{< imgproc "device-name.jpg" Resize "300x" />}}
+   {{< imgproc "device-name-android.png" Resize "300x" />}}
 
 1. LoRa Settings
 
@@ -64,14 +74,15 @@ It's quick, straightforward, and backed by excellent documentation.
    If you plan on participating in the meshmap you'll need to turn on Ok to MQTT.
    More information [here](https://meshtastic.org/docs/configuration/radio/lora/#ignore-mqtt).
 
-   ![LoRa Config Screen](lora-wan-config.jpg)
+   {{< imgproc "lora-wan-config.jpg" Resize "300x" />}}
+   {{< imgproc "lora-config-android.png" Resize "300x" />}}
 
 1. Add Channels for Private configuration
 
    Use These QR Codes to Add the additional IROMesh Channel to your node.
    The Public Channel is available to everyone, but the IROMesh Channel will give us a little better place to communicate among the group.
 
-   ![IRO Mesh channel config](iro-add.jpg)
+   {{< imgproc "iro-add.jpg" Resize "300x" />}}
 
 ## Have Fun
 
