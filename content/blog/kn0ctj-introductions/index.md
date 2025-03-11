@@ -1,5 +1,5 @@
 ---
-date: 2025-03-14
+date: 2025-03-12
 title: Introductions Are in Order
 author: Calvin Jutting ([@KN0CTJ](calvin@iowamesh.net))
 ---
