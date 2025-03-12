@@ -21,7 +21,4 @@ The inspiration for IowaMesh.net came from seeing folks traveling from the Chica
 
 Before diving into radio and Meshtastic, I was a Systems & Network Engineer for various companies. Eventually, I traded my 2 AM troubleshooting sessions for a pre-sales engineer role. Although networking remains close to my heart, venturing into Radio, Wireless, and Meshtastic has allowed me to apply my skills in fresh, exciting ways outside of work. It’s been a fantastic change of pace from the “same old, same old.” I’m always happy to chat about networking, radio, or other nerdy projects!
 
-Going forward, I’m planning to document builds (and I think others are as well) and share creative content here. I’m excited to connect with everyone!
-
-
 Calvin (KN0CTJ)
