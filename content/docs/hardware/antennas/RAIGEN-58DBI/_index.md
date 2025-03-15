@@ -5,8 +5,7 @@ date: 2025-03-05
 
 [Amazon](https://a.co/d/6owUVOz)
 
-![Generic Lora Antenna](raigen-58dbi.jpg)
-
+{{< imgproc "raigen-58dbi.jpg" Resize "400x" />}}
 $31.95
 
-Another Great use case for a base station or higher up location. Can also be used for a client or potentially a router. Good build quality and ready for deployment
+An Ok use case for a base station or higher up location. Can also be used for a client or potentially a router. Good build quality and ready for deployment

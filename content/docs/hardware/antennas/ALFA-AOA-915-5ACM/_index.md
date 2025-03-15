@@ -5,7 +5,7 @@ date: 2025-03-05
 
 [Amazon](https://a.co/d/7hUrzN9)
 
-![Alfa Network 5dbi Antenna](alfa-aoa-915.jpg)
+{{< imgproc "alfa-aoa-915.jpg" Resize "75x" />}}
 
 $16.97
 
