@@ -9,10 +9,10 @@ lora:
   meshtasticId: '!4ea0f5a7'
   mqtt: Indirect
 contact:
-  name: 
-  amateurCallsign: 
-  meshtasticName: 
-  email: 
+  name: Calvin
+  amateurCallsign: KN0CTJ
+  meshtasticName: IowaMesh SE Jasper CO
+  email: calvin@iowamesh.net
   discord: 
 location:
   latitude: 41.6579584
