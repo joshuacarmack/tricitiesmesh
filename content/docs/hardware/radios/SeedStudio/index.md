@@ -23,7 +23,7 @@ The Seeed Studio SenseCAP T1000 is a robust and user-friendly option for Meshtas
 
 If you have MagSafe capable Phone case there is a MagSafe wallet that holds the t1000 nicely and sticks to your phone case
 
-![Amazon MagSafe Wallet](https://a.co/d/ikxBxvI)
+[Amazon MagSafe Wallet](https://a.co/d/ikxBxvI)
 
 {{< imgproc "iPhone-Back.jpg" Resize "300x" />}}
 {{< imgproc "Android-Back.jpg" Resize "300x" />}}
