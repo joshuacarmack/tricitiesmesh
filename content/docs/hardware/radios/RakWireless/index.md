@@ -53,3 +53,6 @@ WisBlock Displays
 | ----------------------------------------------- | ----------------------- | ---------- |
 | RAK1921                                         | 0.96inch OLED           | 128x64px   |
 | RAK14000                                        | 2.13 inch E-Ink display | 212x104px  |
+
+
+{{< imgproc "RAKMeshtasticStarterKit.jpg" Resize "300x" />}}
