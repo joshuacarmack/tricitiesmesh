@@ -32,7 +32,7 @@ Meshtastic nodes can be configured with various roles, each tailored to specific
 
 ***Notably, the Router-Client role has been deprecated in recent Meshtastic versions to simplify role assignments and improve network efficiency.​***
 
-So let's break this into a couple of different topics about advantages and disadvantages 
+So lets look at some advantages and disadvantages
 
 Advantages of Client and Client Mute Modes for Mobile Nodes:
 
