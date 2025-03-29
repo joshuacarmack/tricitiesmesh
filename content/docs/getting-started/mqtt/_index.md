@@ -11,7 +11,7 @@ This page is hidden on purpose for more advances uses.
 
 
 **Server**: mqtt.iowamesh.net  
-    **Port**: 8882 for Non-TLS, 8883 for TLS
+**Port**: 8882 for Non-TLS, 8883 for TLS
 **User**: iromesh  
 **Password**: 2Gab9eAz  
 **Root Topic**: iromesh  
