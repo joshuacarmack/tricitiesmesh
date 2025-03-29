@@ -13,3 +13,6 @@ hugo.linux
 /.hugo_build.lock
 
 **/node_modules/
+
+# Random Stuff to Not Include
+.DS_Store
