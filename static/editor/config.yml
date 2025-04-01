@@ -1,8 +1,10 @@
 media_folder: "static/uploads"
 
+publish_mode: editorial_workflow
+
 backend:
   name: github
-  repo: iowameshnet/iowameshnet.github.io
+  repo: iowaMeshNet/iowameshnet.github.io
   branch: main
 
 collections:
