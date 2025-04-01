@@ -71,6 +71,7 @@ outputs:
 params:
   mapboxToken: pk.eyJ1IjoiZXRoYW5oYXJzdGFkIiwiYSI6ImNtN3Y4YjZkazA4b2cya3B3cGVqdWpnOGIifQ.Lu7fPiHPjQ_bxr4TR33Bjg
   meshmapUrl: https://meshmap.iowamesh.net/
+  
   taxonomy:
     # set taxonomyCloud = [] to hide taxonomy clouds
     taxonomyCloud: [tags, categories]
@@ -137,7 +138,6 @@ params:
     # add "hide_readingtime: true" to the page's front matter
     readingtime:
       enable: false
-
   links:
     # End user relevant links. These will show up on left side of footer and in the community page if you have one.
     user:
