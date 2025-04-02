@@ -6,6 +6,7 @@ backend:
   name: github
   repo: iowaMeshNet/iowameshnet.github.io
   branch: main
+  base_url: https://decap.iowamesh.net
 
 collections:
   - name: posts
