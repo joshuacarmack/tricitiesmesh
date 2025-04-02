@@ -1,6 +1,5 @@
 ---
-title: Seed Studio Devices
-date: 2025-03-14
+title: SenseCap T1000
 ---
 
 ### SenseCap T1000
@@ -8,6 +7,7 @@ date: 2025-03-14
 The Seeed Studio SenseCAP T1000 is a fascinating addition to the Meshtastic ecosystem, offering a compact and efficient solution for GPS tracking and mesh networking. Here's how it performs in the context of Meshtastic:
 
 **Key Features**
+
 1. LoRaWAN Compatibility: The T1000 uses the Semtech LR1110 LoRa transceiver, which is compatible with Meshtastic firmware. This ensures seamless integration into your existing mesh network.
 2. GPS Functionality: With the MediaTek AG3335 GPS module, the T1000 provides accurate location tracking, making it ideal for outdoor adventures or asset tracking within a Meshtastic network.
 3. Low Power Consumption: Its energy-efficient design, including a 700mAh rechargeable battery, supports long-term deployments, which is crucial for off-grid Meshtastic nodes.
