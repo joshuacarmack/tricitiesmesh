@@ -12,8 +12,25 @@ collections:
   - name: posts
     label: Posts
     label_singular: Post
-    folder: content/posts
+    folder: content/blog
     path: "{{slug}}/index"
+    nested:
+      depth: 5
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: docs
+    label: Docs
+    label_singular: Doc
+    folder: content/docs
+    path: "{{slug}}/index"
+    nested:
+      depth: 5
     media_folder: ""
     public_folder: ""
     fields:
