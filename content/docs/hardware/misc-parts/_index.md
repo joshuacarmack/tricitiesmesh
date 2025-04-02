@@ -1,6 +1,6 @@
 ---
 title: Misc Parts List
-date: 2025-03-06
+description: Antenna adapters, cables, enclosure and more.
 ---
 
 Rokland has a unique flat antenna cable which is also 18in in length. This is geat for the solar cases they also offer

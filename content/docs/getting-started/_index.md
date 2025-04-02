@@ -1,6 +1,8 @@
 ---
 title: Getting Started
 weight: 10
+description: >
+  How to get your device setup so you can get on the mesh!
 ---
 
 {{< blocks/section type="row" color="white" >}}
