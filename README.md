@@ -27,3 +27,7 @@ Consult the [docs](https://gohugo.io/getting-started/directory-structure/) for h
 This site uses the Docsy theme.
 Docsy makes numerous shortcodes available to enhance your content.
 Read the [docs](https://www.docsy.dev/docs/) for more information.
+
+### Deployment
+
+Auto deploys to Cloudflare pages on main branch commit.
