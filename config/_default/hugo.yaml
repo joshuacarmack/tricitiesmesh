@@ -152,11 +152,6 @@ params:
         icon: fab fa-github
         desc: Development takes place here!
 
-  assets:
-    customSCSS:
-      - "scss/main.scss"
-
-
 module:
   replacements: "github.com/FortAwesome/Font-Awesome -> ., github.com/twbs/bootstrap -> ."
   imports:
