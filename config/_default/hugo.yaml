@@ -86,7 +86,7 @@ params:
   # images: [images/project-illustration.png]
 
   # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-  github_repo: https://github.com/IowaMeshNet/iowameshnet.github.io
+  github_repo: https://github.com/joshuacarmack/tricitiesmesh
 
   # Specify a value here if your content directory is not in your repo's root directory
   github_subdir: "content"
