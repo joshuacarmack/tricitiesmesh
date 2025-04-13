@@ -2,7 +2,7 @@
 title: Tri-Cities Mesh
 ---
 
-{{< blocks/cover title="Welcome to Tri-Cities Mesh" >}}
+{{< blocks/cover title="Welcome to Tri-Cities Mesh" image_anchor="top" height="full">}}
 <p class="lead mt-5">TriCitiesMesh.net is a group working to build a mesh network of Meshtastic radios in the northeast area of Tennessee. </p>
 {{< /blocks/cover >}}
 
