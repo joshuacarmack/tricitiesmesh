@@ -1,0 +1,10 @@
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #ffffff !important; // Or whatever color you want
+}
+
+// Optional: change hover/focus state
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #cccccc !important;
+}
