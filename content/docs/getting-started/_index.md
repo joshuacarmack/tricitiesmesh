@@ -53,18 +53,38 @@ It's quick, straightforward, and backed by excellent documentation.
    You will need to follow the pairing instructions for your specific device.
    Generally devices without a screen will have a fixed pin like "123456" and devices with a screen will present a pairing code on the screen.
 
-   {{< imgproc "pairing-android.png" Resize "300x" />}}
+   {{< blocks/section type="row" color="white" >}}
+   {{% blocks/feature icon="fa-brands fa-android" title="Android" %}}
+   {{< imgproc "pairing-android.png" Resize "400x" />}}
+   {{% /blocks/feature %}}
+   {{% blocks/feature icon="fa-brands fa-apple" title="Apple iOS" %}}
+   {{< imgproc "paring-iphone.png" Resize "400x" />}}
+   {{% /blocks/feature %}}
+   {{< /blocks/section >}}
 
 1. Set your Lora Region to United States
 
-   {{< imgproc "region-android.png" Resize "300x" />}}
+   {{< blocks/section type="row" color="white" >}}
+   {{% blocks/feature icon="fa-brands fa-android" title="Android" %}}
+   {{< imgproc "region-android.png" Resize "400x" />}}
+   {{% /blocks/feature %}}
+   {{% blocks/feature icon="fa-brands fa-apple" title="Apple iOS" %}}
+   {{< imgproc "region-iphone.jpg" Resize "400x" />}}
+   {{% /blocks/feature %}}
+   {{< /blocks/section >}}
 
 1. Name Your Device
 
    Be Found Easily by naming your device! If you are already a licensed Amateur Radio Operator you can opt to put in your call sign
 
-   {{< imgproc "device-name.jpg" Resize "300x" />}}
-   {{< imgproc "device-name-android.png" Resize "300x" />}}
+   {{< blocks/section type="row" color="white" >}}
+   {{% blocks/feature icon="fa-brands fa-android" title="Android" %}}
+   {{< imgproc "device-name-android.png" Resize "400x" />}}
+   {{% /blocks/feature %}}
+   {{% blocks/feature icon="fa-brands fa-apple" title="Apple iOS" %}}
+   {{< imgproc "device-name.jpg" Resize "500x" />}}
+   {{% /blocks/feature %}}
+   {{< /blocks/section >}}
 
 1. LoRa Settings
 
@@ -76,15 +96,26 @@ It's quick, straightforward, and backed by excellent documentation.
    If you plan on participating in the meshmap you'll need to turn on Ok to MQTT.
    More information [here](https://meshtastic.org/docs/configuration/radio/lora/#ignore-mqtt).
 
-   {{< imgproc "lora-wan-config.jpg" Resize "300x" />}}
-   {{< imgproc "lora-config-android.png" Resize "300x" />}}
+   {{< blocks/section type="row" color="white" >}}
+   {{% blocks/feature icon="fa-brands fa-android" title="Android" %}}
+   {{< imgproc "lora-config-android.png" Resize "400x" />}}
+   {{% /blocks/feature %}}
+   {{% blocks/feature icon="fa-brands fa-apple" title="Apple iOS" %}}
+   {{< imgproc "lora-wan-config.jpg" Resize "500x" />}}
+   {{% /blocks/feature %}}
+   {{< /blocks/section >}}
 
 1. Add Channels for Private configuration
 
-   Use These QR Codes to Add the additional IROMesh Channel to your node.
    The Public Channel is available to everyone, but the IROMesh Channel will give us a little better place to communicate among the group.
 
-   {{< imgproc "iro-add.jpg" Resize "300x" />}}
+   Add the channel manually (Case Matters)
+
+   Name: IROMesh
+   
+   PSK: 7V8jZEvMrVrEXx/c8UekOwE+tSlWaWNffKr6zBtQo/A=
+   
+   Key Size: 256
 
 ## Have Fun
 
