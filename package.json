@@ -1,21 +1,21 @@
 {
-  "name": "iowameshsite",
+  "name": "tricitiesmeshsite",
   "version": "1.0.0",
-  "description": "Static site for Iowa Mesh",
+  "description": "Static site for Tri-Cities Mesh",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IowaMeshNet/IowaMeshSite.git"
+    "url": "git+https://github.com/joshuacarmack/tricitiesmesh.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IowaMeshNet/IowaMeshSite/issues"
+    "url": "https://github.com/joshuacarmack/tricitiesmesh/issues"
   },
-  "homepage": "https://github.com/IowaMeshNet/IowaMeshSite#readme",
+  "homepage": "https://github.com/joshuacarmack/tricitiesmesh#readme",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "autoprefixer": "^10.4.20",
