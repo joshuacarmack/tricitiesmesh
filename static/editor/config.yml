@@ -4,9 +4,9 @@ publish_mode: editorial_workflow
 
 backend:
   name: github
-  repo: iowaMeshNet/iowameshnet.github.io
+  repo: joshuacarmack/tricitiesmesh.github.io
   branch: main
-  base_url: https://decap.iowamesh.net
+  base_url: https://decap.tricitiesmesh.net
 
 collections:
   - name: posts
