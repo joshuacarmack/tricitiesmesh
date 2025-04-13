@@ -1,9 +1,6 @@
 baseURL: https://tricitiesmesh.net/
 title: Tri-Cities Mesh
 
-theme: docsy
-themesDir: node_modules
-
 menus:
   main:
     - name: MeshMap
@@ -63,10 +60,6 @@ markup:
     # guessSyntax: true
 
 # Everything below this are Site Params
-
-# Comment out if you don't want the "print entire section" link enabled.
-outputs:
-  section: [HTML, print, RSS]
 
 params:
   mapboxToken: pk.eyJ1IjoiZXRoYW5oYXJzdGFkIiwiYSI6ImNtN3Y4YjZkazA4b2cya3B3cGVqdWpnOGIifQ.Lu7fPiHPjQ_bxr4TR33Bjg
@@ -156,4 +149,13 @@ params:
 module:
   replacements: "github.com/FortAwesome/Font-Awesome -> ., github.com/twbs/bootstrap -> ."
   imports:
-    path: "docsy"
+    - path: github.com/google/docsy
+  mounts:
+    - source: layouts
+      target: layouts
+    - source: static
+      target: static
+    - source: content
+      target: content
+    - source: assets
+      target: assets
