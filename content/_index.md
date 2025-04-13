@@ -6,7 +6,7 @@ title: Tri-Cities Mesh
 <p class="lead mt-5">TriCitiesMesh.net is a group working to build a mesh network of Meshtastic radios in the northeast area of Tennessee. </p>
 {{< /blocks/cover >}}
 
-{{% blocks/lead color="primary" %}}
+{{% blocks/lead color="meshtasticgreen" %}}
 Meshtastic is an open-source, decentralized, off-grid mesh network. It's made up of small communicators that can form a mesh network.
 These communicators can be linked to a phone via Bluetooth or Wi-Fi.
 Meshtastic uses inexpensive LoRa radios as a long-range communication platform.
