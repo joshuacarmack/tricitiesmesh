@@ -1,6 +1,6 @@
 ---
 title: Downtown Kingsport - Joshua
-description: Solar powered node serving Eastern Boone County
+description: Powered node in Kingsport, used for mapping and telemetry keeping.
 date: 2025-04-13T10:55:00.000Z
 lora:
   shortName: JCH1
@@ -10,11 +10,11 @@ lora:
   meshtasticId: "!34078216"
   mqtt: Indirect
 contact:
-  name: Ethan Harstad
-  amateurCallsign: NV1K
-  mestasticName: NV1K IowaMesh.net
-  email: ethanharstad@gmail.com
-  discord: madEngineer
+  name: Joshua Carmack
+  amateurCallsign: N4JHC
+  mestasticName: N4JHC
+  email: n4jhcradio@gmail.com
+  discord: 
 location:
   name: Kingsport, TN
   latitude: 42.0610048
