@@ -1,5 +1,5 @@
-baseURL: https://iowamesh.net/
-title: Iowa Mesh Net
+baseURL: https://tricitiesmesh.net/
+title: Tri-Cities Mesh
 
 theme: docsy
 themesDir: node_modules
@@ -8,7 +8,7 @@ menus:
   main:
     - name: MeshMap
       weight: 20
-      url: https://meshmap.iowamesh.net/?zoom=8&lat=41.795770762948315&lng=266.7178868078869
+      url: https://map.tricitiesmesh.net/
       target: ""
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
@@ -70,7 +70,7 @@ outputs:
 
 params:
   mapboxToken: pk.eyJ1IjoiZXRoYW5oYXJzdGFkIiwiYSI6ImNtN3Y4YjZkazA4b2cya3B3cGVqdWpnOGIifQ.Lu7fPiHPjQ_bxr4TR33Bjg
-  meshmapUrl: https://meshmap.iowamesh.net/
+  meshmapUrl: https://map.tricitiesmesh.net/
   
   taxonomy:
     # set taxonomyCloud = [] to hide taxonomy clouds
@@ -105,8 +105,8 @@ params:
   prism_syntax_highlighting: false
 
   copyright:
-    authors: Iowa Mesh Net
-    from_year: 2024
+    authors: Tri-Cities Mesh
+    from_year: 2025
 
   # User interface configuration
   ui:
@@ -129,9 +129,9 @@ params:
       enable: false
       # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
       "yes": >-
-        Glad to hear it! Please <a href="https://github.com/IowaMeshNet/iowameshnet.github.io/issues/new">tell us how we can improve</a>.
+        Glad to hear it! Please <a href="https://github.com/joshuacarmack/tricitiesmesh/issues/new">tell us how we can improve</a>.
       "no": >-
-        Sorry to hear that. Please <a href="https://github.com/IowaMeshNet/iowameshnet.github.io/issues/new">tell us how we can improve</a>.
+        Sorry to hear that. Please <a href="https://github.com/joshuacarmack/tricitiesmesh/issues/new">tell us how we can improve</a>.
 
     # Adds a reading time to the top of each doc.
     # If you want this feature, but occasionally need to remove the Reading time from a single page,
@@ -141,20 +141,16 @@ params:
   links:
     # End user relevant links. These will show up on left side of footer and in the community page if you have one.
     user:
-      - name: Iowa Radio Operators Discord
-        url: https://discord.gg/jHBywwPJD8
+      - name: Tri-Cities Mesh Operators Discord
+        url: joshuacarmack/tricitiesmesh
         icon: fab fa-discord
         desc: Discussion and help from your fellow users
     # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
     developer:
       - name: GitHub
-        url: https://github.com/IowaMeshNet/
+        url: https://github.com/joshuacarmack/tricitiesmesh
         icon: fab fa-github
         desc: Development takes place here!
-      - name: Discord
-        url: https://discord.gg/jHBywwPJD8
-        icon: fab fa-discord
-        desc: Chat with other project developers
 
 module:
   replacements: "github.com/FortAwesome/Font-Awesome -> ., github.com/twbs/bootstrap -> ."
