@@ -2,8 +2,8 @@
 title: Iowa Mesh
 ---
 
-{{< blocks/cover title="Welcome to Iowa Mesh" >}}
-<p class="lead mt-5">IowaMesh.net is a group working to build a mesh network of Meshtastic radios in the State of Iowa. This network acts like a statewide text messaging system, allowing people to communicate publicly or privately with anyone on the network.</p>
+{{< blocks/cover title="Welcome to Tri-Cities Mesh" >}}
+<p class="lead mt-5">TriCitiesMesh.net is a group working to build a mesh network of Meshtastic radios in the northeast area of Tennessee. </p>
 {{< /blocks/cover >}}
 
 {{% blocks/lead color="primary" %}}
@@ -14,7 +14,7 @@ Learn more at the official Meshtastic website.
 {{% /blocks/lead %}}
 
 {{% blocks/section %}}
-We're working to set up a mesh network of solar-powered radio repeaters in Iowa.
+We're working to set up a mesh network of solar-powered radio repeaters in the Tri-Cities, TN area (Kingsport, Johnson City, and Bristol).
 Users also contribute to the network using their personal Meshtastic devices.
 These radios communicate in the 915 MHz ISM band using the LoRa protocol.
 The radios mesh using the open-source Meshtastic software.
