@@ -1,0 +1,5 @@
+$custom-colors: (
+  'meshtastic': #67ea94,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
