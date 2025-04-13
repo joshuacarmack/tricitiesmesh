@@ -154,7 +154,8 @@ params:
 
   assets:
     customSCSS:
-      - "scss/custom.scss"
+      - "scss/main.scss"
+
 
 module:
   replacements: "github.com/FortAwesome/Font-Awesome -> ., github.com/twbs/bootstrap -> ."
