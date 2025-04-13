@@ -4,7 +4,7 @@ publish_mode: editorial_workflow
 
 backend:
   name: github
-  repo: joshuacarmack/tricitiesmesh.github.io
+  repo: joshuacarmack/tricitiesmesh
   branch: main
   base_url: https://decap.tricitiesmesh.pages.dev
 
