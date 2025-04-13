@@ -6,7 +6,7 @@ backend:
   name: github
   repo: joshuacarmack/tricitiesmesh.github.io
   branch: main
-  base_url: https://tricitiesmesh.pages.dev
+  base_url: https://decap.tricitiesmesh.pages.dev
 
 collections:
   - name: posts
