@@ -3,10 +3,11 @@ media_folder: "static/uploads"
 publish_mode: editorial_workflow
 
 backend:
-  name: github
+  name: git-gateway
   repo: joshuacarmack/tricitiesmesh
   branch: main
-  base_url: https://decap.tricitiesmesh.pages.dev
+  identity_url: https://auth.decapbridge.com/sites/e74b01eb-560c-4bf7-a187-3d43ce95c018
+  gateway_url: https://gateway.decapbridge.com
 
 collections:
   - name: posts
