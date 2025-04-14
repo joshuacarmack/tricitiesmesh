@@ -16,10 +16,10 @@ contact:
   email: n4jhcradio@gmail.com
   discord: 
 location:
-  name: Kingsport, TN
+  name: Kingsport, TN (Wilcox Dr)
   latitude: 36.53747
   longitude: -82.54736
-  agl: 25
-  altitude: 1000
 ---
-Maintained by Joshua Carmack. Used for mapping purposes.
+Maintained by Joshua Carmack. Used for mapping purposes, runs this site plus multiple telemetry monitors.
+
+View some of the telemetry at [https://grafana.jclab.xyz/public-dashboards/3df238fa1c1d4d50a88b95ec050ebe88?orgId=1&from=now-24h&to=now&timezone=browser](https://grafana.jclab.xyz/public-dashboards/3df238fa1c1d4d50a88b95ec050ebe88?orgId=1&from=now-24h&to=now&timezone=browser)

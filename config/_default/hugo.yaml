@@ -5,7 +5,7 @@ menus:
   main:
     - name: MeshMap
       weight: 20
-      url: https://map.tricitiesmesh.net/
+      url: https://map.tricitiesmesh.net/?lat=36.517914698992854&lng=277.4882125854493&zoom=12
       target: ""
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
@@ -17,7 +17,7 @@ defaultContentLanguage: en
 enableRobotsTXT: true
 
 # Will give values to .Lastmod etc.
-enableGitInfo: true
+enableGitInfo: false
 
 # Comment out to enable taxonomies in Docsy
 # disableKinds: [taxonomy, taxonomyTerm]
@@ -63,7 +63,7 @@ markup:
 
 params:
   mapboxToken: pk.eyJ1IjoiZXRoYW5oYXJzdGFkIiwiYSI6ImNtN3Y4YjZkazA4b2cya3B3cGVqdWpnOGIifQ.Lu7fPiHPjQ_bxr4TR33Bjg
-  meshmapUrl: https://map.tricitiesmesh.net/
+  meshmapUrl: https://map.tricitiesmesh.net/?lat=36.517914698992854&lng=277.4882125854493&zoom=12
   
   taxonomy:
     # set taxonomyCloud = [] to hide taxonomy clouds
@@ -147,15 +147,18 @@ params:
         desc: Development takes place here!
 
 module:
-  replacements: "github.com/FortAwesome/Font-Awesome -> ., github.com/twbs/bootstrap -> ."
   imports:
     - path: github.com/google/docsy
   mounts:
+    - source: assets
+      target: assets
+    - source: content
+      target: content
     - source: layouts
       target: layouts
     - source: static
       target: static
-    - source: content
-      target: content
-    - source: assets
-      target: assets
+    - source: data
+      target: data
+    - source: archetypes
+      target: archetypes
