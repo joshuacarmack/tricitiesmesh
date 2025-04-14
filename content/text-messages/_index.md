@@ -13,5 +13,5 @@ Text Messages Heard over the mesh (Keep in mind these are coming from MQTT, so Y
 {{% /blocks/lead %}}
 
 {{< blocks/section color="white" >}}
-{{<iframe src="https://map.tricitiesmesh.net/text-messages-embed.html" >}}
+{{<iframe src="https://meshmap.iowamesh.net/text-messages-embed.html" >}}
 {{< /blocks/section >}}
