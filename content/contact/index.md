@@ -14,7 +14,7 @@ Contact Us Below!
 {{% /blocks/lead %}}
 
 {{< blocks/section color="white" >}}
-<form action="https://formsubmit.co/n4jhcradio@gmail.com" method="POST">
+<form action="https://formsubmit.co/info@iowamesh.net" method="POST">
   <div class="mb-3">
     <label for="InputEmail" class="form-label">Email address</label>
     <input name="email" type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
