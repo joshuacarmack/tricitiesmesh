@@ -4,16 +4,22 @@
   "description": "Static site for Tri-Cities Mesh",
   "main": "index.html",
   "scripts": {
-    "build": "hugo"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshuacarmack/tricitiesmesh.git"
+    "url": "git+https://github.com/joshuacarmack/tricitiesmesh.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/joshuacarmack/tricitiesmesh/issues"
   },
-  "homepage": "https://github.com/joshuacarmack/tricitiesmesh#readme"
+  "homepage": "https://github.com/joshuacarmack/tricitiesmesh#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "autoprefixer": "^10.4.20",
+    "docsy": "github:google/docsy#v0.11.0",
+    "postcss-cli": "^11.0.0"
+  }
 }
